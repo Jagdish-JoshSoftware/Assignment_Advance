@@ -1,1 +1,6 @@
-6th quetion
+6. How to un-stage changes from the staged area. write command for it.
+The git reset command is used to un-stage changes that have been added to the staging area.
+
+    git reset <file-name>: This will un-stage a specific file, keeping the changes in the working directory.
+    git reset: This removes all changes from the staging area, but the modifications remain in the working directory.
+

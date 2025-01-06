@@ -1,1 +1,2 @@
-4th quetion
+4. Why is it not possible to create two branches with the names `fix` and `fix/bug` in a Git repository, and what causes this conflict?
+In Git, it's not possible to create two branches with the names `fix` and `fix/bug` because the slash (`/`) is used as a delimiter for creating hierarchical branch names (like folders). Since `fix/bug` is interpreted as a sub-branch under the `fix` branch, Git sees `fix` and `fix/bug` as part of the same naming hierarchy, causing a conflict.
