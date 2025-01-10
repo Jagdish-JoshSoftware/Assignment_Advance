@@ -1,0 +1,3 @@
+5.How to set multiple remote repositories for the same project? Explain the use case. you should have a working demo of it?
+To set multiple remote repositories for the same Git project, you can add multiple remotes to your repository using the git remote command. This allows you to push to or pull from different remote repositories.
+

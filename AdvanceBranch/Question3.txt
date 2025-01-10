@@ -1,0 +1,3 @@
+3.Under what conditions will Git consider a file that has been deleted as being renamed, and what criteria does Git use to determine that a new file is a renamed version of the deleted file?
+Git considers a file that has been deleted as being renamed if the file's content is significantly similar to a newly added file. Git uses a similarity index (default threshold of 50%) to compare the deleted file and the new file: if the content of the new file is similar enough to the deleted file, Git treats it as a rename rather than a deletion and addition.
+
